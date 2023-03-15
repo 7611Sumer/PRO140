@@ -182,7 +182,7 @@ function askBot() {
 
     //  when send button is clicked
     //Activity2
-    $("").click(function () {
+    $("#send_button").click(function () {
 
         //  get text from textbox in chatbot
         var user_bot_input_text = $("#bot_input_text").val()
